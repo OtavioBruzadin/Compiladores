@@ -79,9 +79,9 @@ int main(void){
         if ( info_atm.atomo == MAIN || info_atm.atomo == CHAR ||
             info_atm.atomo == ELSE || info_atm.atomo == IF || info_atm.atomo == INT ||
             info_atm.atomo == READINT || info_atm.atomo == VOID || info_atm.atomo == WHILE ||
-            info_atm.atomo == WRITEINT)
+            info_atm.atomo == WRITEINT);
 
-        printf("");
+
 
     } while (info_atm.atomo != ERRO && info_atm.atomo != EOS);
 
